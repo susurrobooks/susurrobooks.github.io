@@ -22,7 +22,7 @@ body,.header_wrap,.header,.footer,.book-front{background-color:#F4F4F4;}
 .nav a.current-page{font-weight:bold;color:#A38B8B;text-decoration:none;}
 .nav a.current-page::after{width:0;}
 /* 메인 콘텐츠 영역 */
-.content{flex-grow:1;width:100%;max-width:1000px;padding:0px 0px;margin:20px auto;border-radius:8px;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+.content,.hero-section{flex-grow:1;width:100%;max-width:1000px;padding:0px 0px;margin:20px auto;border-radius:8px;display:flex;flex-direction:column;align-items:center;}
 /* 푸터 */
 .footer{width:100%;max-width:1000px;text-align:center;margin-top:20px;padding:15px 0 25px;border-top:1px solid #E6E6E6;color:#ccc;font-size:0.85em;}
 
@@ -36,6 +36,7 @@ body,.header_wrap,.header,.footer,.book-front{background-color:#F4F4F4;}
 .stats-highlight p,.about-section p{font-size:1em;line-height:1.9em;color:#555;margin:0;position:relative;}
 
 /* index*/
+.hero-section{justify-content:center;}
 .hero-title{align-items:center;margin-bottom:60px;display:flex;flex-direction:column;}
 .hero-title .brand{font-size:0.9em;}
 .hero-title .brand .susurro2{font-size:1.5em;font-weight:500;vertical-align:-2%;}
@@ -44,12 +45,12 @@ body,.header_wrap,.header,.footer,.book-front{background-color:#F4F4F4;}
 .stats-highlight p:not(:last-child)::after{content:'';position:absolute;right:-15px;top:50%;transform:translateY(-50%);width:1px;height:70%;background-color:#eee;}
 
 /* about*/
-.section-title{font-size:1.1em;color:#333;margin:70px 0 1px;/*display:flex;justify-content:space-between;align-items:center;*/}
-.section-title .susurro2{vcolor:#B8A0A0;ertical-align:7%;font-weight:500;}
+.section-title{font-size:1.1em;color:#333;margin:70px 0 7px;/*display:flex;justify-content:space-between;align-items:center;*/}
+.section-title .susurro2{color:#B8A0A0;vertical-align:7%;font-weight:500;}
 .section-title .susurro2::before{content:"";display:inline-block;width:1px;height:0.8em;background:#B8A0A0;margin:0 9px;vertical-align:middle;}
 
 /* portfolio */
-.portfolio-grid{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:5px;padding:0;max-width:1000px;width:100;}
+.portfolio-grid{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:5px;margin:70px auto 40px;padding:0;max-width:1000px;}
 .book-link-wrapper{text-decoration:none;color:inherit;display:block;flex-basis:calc((100% - 10px*5)/6);min-width:130px;margin-bottom:10px;}
 .book-link-wrapper:hover{cursor:pointer;}
 .book-card-container{width:100%;height:200px;perspective:1000px;}
