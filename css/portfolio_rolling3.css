@@ -51,7 +51,7 @@ body,.header_wrap,.header,.footer,.book-front{background-color:#F4F4F4;}
 
 /* portfolio */
 .portfolio-grid-wrapper{width:100%;overflow:hidden;position:relative;margin:100px auto 40px;max-width:1000px;}
-.portfolio-grid{display:flex;justify-content:flex-start;flex-wrap:nowrap;padding:0;margin:0;width:max-content;animation:scroll 40s linear infinite;}
+.portfolio-grid{display:flex;justify-content:flex-start;flex-wrap:nowrap;padding:0;margin:0;width:max-content;animation:scroll 30s linear infinite;}
 
 @keyframes scroll {
   0% { transform: translateX(0); }
@@ -122,4 +122,5 @@ a.book-link-wrapper[href] .book-back{border:3px solid #dfcdcd;}
   .book-card-container{height:180px;}
   .book-back p,.book-back .book-subtitle,.book-back .book-author,.book-back .book-translator,.book-back .book-publisher{font-size:0.6em;}
   .book-back h3{font-size:0.8em;}
+
 }
