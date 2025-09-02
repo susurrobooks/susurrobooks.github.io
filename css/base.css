@@ -26,16 +26,15 @@ body,.header_wrap,.header,.footer,.book-front{background-color:#F4F4F4;}
 /* 푸터 */
 .footer{width:100%;max-width:1000px;text-align:center;margin-top:20px;padding:15px 0 25px;border-top:1px solid #E6E6E6;color:#ccc;font-size:0.85em;}
 
-
-/* 섹션 공통 - index, about*/
-.hero-section,.about-section{text-align:center;margin:40px auto;max-width:700px;padding:0 15px;}
+/* 섹션 공통 - index, about */
+.hero-section,.text-section{text-align:center;margin:40px auto;max-width:700px;padding:0 15px;}
 .hero-title,.page-title{font-size:2.1em;font-weight:300;color:#333;line-height:1.5;letter-spacing:-0.5px;}
-.page-title,.section-title,.about-section p{text-align:left;}
+.page-title,.section-title,.text-section p{text-align:left;}
 .page-title{font-size:1.8em;margin-bottom:0;}
 .page-title::after{content:"";display:block;width:40px;height:1px;background-color:#666;margin:0.85rem auto 0;}
-.stats-highlight p,.about-section p{font-size:1em;line-height:1.9em;color:#555;margin:0;position:relative;}
+.stats-highlight p,.text-section p{font-size:1em;line-height:1.9em;color:#555;margin:0;position:relative;}
 
-/* index*/
+/* index */
 .hero-section{justify-content:center;}
 .hero-title{align-items:center;margin-bottom:60px;display:flex;flex-direction:column;}
 .hero-title .brand{font-size:0.9em;}
@@ -44,10 +43,18 @@ body,.header_wrap,.header,.footer,.book-front{background-color:#F4F4F4;}
 .stats-highlight p{font-size:1.1em;line-height:2.3em;color:#777;margin:0;padding:0 15px;position:relative;}
 .stats-highlight p:not(:last-child)::after{content:'';position:absolute;right:-15px;top:50%;transform:translateY(-50%);width:1px;height:70%;background-color:#eee;}
 
-/* about*/
+/* about */
 .section-title{font-size:1.1em;color:#333;margin:70px 0 7px;/*display:flex;justify-content:space-between;align-items:center;*/}
 .section-title .susurro2{color:#B8A0A0;vertical-align:7%;font-weight:500;}
 .section-title .susurro2::before{content:"";display:inline-block;width:1px;height:0.8em;background:#B8A0A0;margin:0 9px;vertical-align:middle;}
+
+/* guide */
+p.para-start{margin-top:70px;}
+.process-table{width:100%;border-collapse:collapse;margin:30px 0;}
+.process-table th,.process-table td{border:1px solid #E0E0E0;padding:12px 10px;text-align:left;font-size:0.95em;color:#555;}
+.process-table th{background-color:#F4F4F4;color:#333;font-weight:500;}
+.process-table tbody tr:nth-child(even){background-color:#FAFAFA;}
+.process-table td:first-child{font-weight:500;color:#B8A0A0;width:20%;}
 
 /* portfolio */
 .portfolio-grid{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:5px;margin:70px auto 40px;padding:0;max-width:1000px;}
@@ -90,9 +97,9 @@ a.book-link-wrapper[href] .book-back{border:3px solid #dfcdcd;}
   .book-card-container{height:190px;}
   .hero-title{font-size:1.8em;}
   .content{max-width:700px;}
-  .about-section{margin:30px 15px;}
+  .text-section{margin:30px 15px;}
   .section-title{font-size:1.5em;margin-bottom:15px;}
-  .about-section p{font-size:1em;}
+  .text-section p{font-size:1em;}
 }
 
 /* 모바일 전용 미디어 쿼리 */
@@ -117,4 +124,20 @@ a.book-link-wrapper[href] .book-back{border:3px solid #dfcdcd;}
   .book-card-container{height:180px;}
   .book-back p,.book-back .book-subtitle,.book-back .book-author,.book-back .book-translator,.book-back .book-publisher{font-size:0.6em;}
   .book-back h3{font-size:0.8em;}
+}
+
+
+
+
+/*걍 붙였음 정리해야함*/
+@media(max-width:1000px){
+.process-table{font-size:0.85em;}
+.process-table th,.process-table td{padding:10px 8px;}
+.process-table td:first-child{width:25%;}
+}
+
+@media(max-width:550px){
+.process-table{display:block;overflow-x:auto;white-space:nowrap;}
+.process-table th,.process-table td{padding:8px 6px;font-size:0.8em;}
+.process-table td:first-child{width:auto;}
 }
