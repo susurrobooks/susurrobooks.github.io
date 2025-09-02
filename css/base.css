@@ -26,7 +26,7 @@ body,.header_wrap,.header,.footer,.book-front{background-color:#F4F4F4;}
 /* 푸터 */
 .footer{width:100%;max-width:1000px;text-align:center;margin-top:20px;padding:15px 0 25px;border-top:1px solid #E6E6E6;color:#ccc;font-size:0.85em;}
 
-/* 섹션 공통 - index, about */
+/* 섹션 공통 - index, about, guide, contact */
 .hero-section,.text-section{text-align:center;margin:40px auto;max-width:700px;padding:0 15px;}
 .hero-title,.page-title{font-size:2.1em;font-weight:300;color:#333;line-height:1.5;letter-spacing:-0.5px;}
 .page-title,.section-title,.text-section p{text-align:left;}
@@ -141,3 +141,4 @@ a.book-link-wrapper[href] .book-back{border:3px solid #dfcdcd;}
 .process-table th,.process-table td{padding:8px 6px;font-size:0.8em;}
 .process-table td:first-child{width:auto;}
 }
+
