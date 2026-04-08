@@ -1,6 +1,6 @@
 // 경로 설정 (kr 폴더 안인지 루트인지 자동 감지)
 var isKr = window.location.pathname.indexOf('/kr/') !== -1;
-var base = isKr ? '/assets/html/' : '/assets/html/';
+var base = isKr ? '/assets/html/' : 'assets/html/';
 var headerFile = isKr ? base + 'header_kr.html' : base + 'header_en.html';
 var footerFile = base + 'footer.html';
 
