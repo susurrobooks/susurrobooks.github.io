@@ -123,7 +123,6 @@ a.book-link-wrapper[href] .book-back{border:3px solid #dfcdcd;}
   .content{max-width:700px;}
   .text-section{margin:30px 15px;}
   .section-title{font-size:1.5em;margin-bottom:15px;}
-  .text-section p{font-size:1em;}
 }
 
 /* 모바일 전용 미디어 쿼리 */
