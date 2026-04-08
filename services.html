@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — susurro</title>
+  <meta name="description" content="EPUB 2.0 · EPUB 3.0 production and conversion, template sales, accessibility audit, and ebook consulting. Tailored services for every genre and format.">
+  <link rel="stylesheet" href="assets/css/base.css" />
+</head>
+
+<body>
+  <div id="header-wrap"></div>
+
+  <main class="content">
+    <h2 class="page-title"><span class="susurro2">susurro</span> &nbsp;Services</h2>
+
+    <section class="text-section">
+
+      <h3 class="section-title">EPUB Production <span class="susurro2">&nbsp;epub 2.0 · 3.0</span></h3>
+      <p>We turn your manuscript into a polished EPUB file. Word, PDF, HWP — any text-based format works. Complex manuscripts with footnotes, tables, and images are always welcome.</p>
+      <p>Not sure which format is right for you? Feel free to reach out first. We'll help you choose the best fit — EPUB 2.0, EPUB 3.0, PDF, or otherwise — based on your manuscript and distribution goals.</p>
+      <p class="sample-label">Samples</p>
+      <div class="sample-tabs">
+        <div class="tab-buttons">
+          <button class="tab-btn active" onclick="switchTab('nonfiction', this)">Nonfiction</button>
+          <button class="tab-btn" onclick="switchTab('prose', this)">Fiction & Essay</button>
+          <button class="tab-btn" onclick="switchTab('poetry', this)">Poetry & Drama</button>
+          <button class="tab-btn" onclick="switchTab('image', this)">Image-heavy</button>
+        </div>
+        <div class="tab-panel active" id="panel-nonfiction">
+          <div class="sample-info">
+            <p class="sample-genre">Knowledge-based</p>
+            <p class="sample-genre-sub">Nonfiction · Self-help · Academic</p>
+            <p class="sample-meta">12 footnotes<br>8 images<br>3 tables</p>
+          </div>
+          <div class="sample-pages">
+            <div class="sample-page"><span class="page-num">Body 1</span><span class="page-lbl">Paragraph style</span></div>
+            <div class="sample-page"><span class="page-num">Body 2</span><span class="page-lbl">Heading + image</span></div>
+            <div class="sample-page"><span class="page-num">Body 3</span><span class="page-lbl">Table · footnote</span></div>
+          </div>
+        </div>
+        <div class="tab-panel" id="panel-prose">
+          <div class="sample-info">
+            <p class="sample-genre">Prose</p>
+            <p class="sample-genre-sub">Fiction · Essay · Literary</p>
+            <p class="sample-meta">0 footnotes<br>2 images<br>0 tables</p>
+          </div>
+          <div class="sample-pages">
+            <div class="sample-page"><span class="page-num">Body 1</span><span class="page-lbl">Paragraph style</span></div>
+            <div class="sample-page"><span class="page-num">Body 2</span><span class="page-lbl">Subheading</span></div>
+            <div class="sample-page"><span class="page-num">Body 3</span><span class="page-lbl">Image</span></div>
+          </div>
+        </div>
+        <div class="tab-panel" id="panel-poetry">
+          <div class="sample-info">
+            <p class="sample-genre">Special layout</p>
+            <p class="sample-genre-sub">Poetry · Drama · Screenplay</p>
+            <p class="sample-meta">Please inquire<br><br><br></p>
+          </div>
+          <div class="sample-pages">
+            <div class="sample-page"><span class="page-num">Body 1</span><span class="page-lbl">Paragraph style</span></div>
+            <div class="sample-page"><span class="page-num">Body 2</span><span class="page-lbl">Special layout</span></div>
+            <div class="sample-page"><span class="page-num">Body 3</span><span class="page-lbl">Indentation</span></div>
+          </div>
+        </div>
+        <div class="tab-panel" id="panel-image">
+          <div class="sample-info">
+            <p class="sample-genre">Image-heavy</p>
+            <p class="sample-genre-sub">Children's · Cookbook · Photo book</p>
+            <p class="sample-meta">Please inquire<br><br><br></p>
+          </div>
+          <div class="sample-pages">
+            <div class="sample-page"><span class="page-num">Body 1</span><span class="page-lbl">Image layout</span></div>
+            <div class="sample-page"><span class="page-num">Body 2</span><span class="page-lbl">Text + image</span></div>
+            <div class="sample-page"><span class="page-num">Body 3</span><span class="page-lbl">Caption</span></div>
+          </div>
+        </div>
+      </div>
+      <a href="contact.html?service=production" class="quote-btn">Request a quote →</a>
+
+      <h3 class="section-title">EPUB Conversion <span class="susurro2">&nbsp;epub 2.0 · 3.0</span></h3>
+      <p>We convert your existing print book into an EPUB. InDesign files, PDFs, and scanned copies are all welcome. We optimize for digital reading while preserving your original design as much as possible.</p>
+      <a href="contact.html?service=conversion" class="quote-btn">Request a quote →</a>
+
+      <h3 class="section-title">Accessibility Audit <span class="susurro2">&nbsp;epub 3.0</span></h3>
+      <p>We check whether your EPUB 3.0 file reads correctly with screen readers. Issues are documented in a detailed report, and we can help with fixes too. Recommended for anyone preparing for EAA (European Accessibility Act) compliance.</p>
+      <p class="sample-label">What we check</p>
+      <ul class="checklist">
+        <li>Image alt text</li>
+        <li>Heading structure (h1–h6)</li>
+        <li>Language declaration</li>
+        <li>Table of contents accuracy</li>
+        <li>Footnote links</li>
+        <li>Table markup</li>
+        <li>Screen reader playback test</li>
+        <li>EAA compliance report</li>
+      </ul>
+      <a href="contact.html?service=accessibility" class="quote-btn">Request a quote →</a>
+
+      <h3 class="section-title">Templates <span class="susurro2">&nbsp;epub 2.0 · 3.0</span></h3>
+      <p>Genre-specific EPUB templates are coming soon. We'll announce when they're ready.</p>
+
+    </section>
+  </main>
+
+  <div id="footer-wrap"></div>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
