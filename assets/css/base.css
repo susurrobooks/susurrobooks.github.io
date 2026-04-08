@@ -33,7 +33,7 @@ header.header_wrap{width:100%;max-width:1000px;text-align:center;padding:0 0 20p
 /* 메인 콘텐츠 영역 */
 .content,.hero-section{flex-grow:1;width:100%;max-width:1000px;padding:0px 0px;margin:20px auto;border-radius:8px;display:flex;flex-direction:column;align-items:center;}
 /* 푸터 */
-.footer{width:100%;max-width:1000px;text-align:center;margin-top:20px;padding:15px 0 25px;border-top:1px solid #E6E6E6;color:#ccc;font-size:0.85em;}
+footer.footer{width:100%;max-width:1000px;text-align:center;margin-top:20px;padding:15px 0 25px;border-top:1px solid #E6E6E6;color:#ccc;font-size:0.85em;}
 
 /* 섹션 공통 - index, about */
 .hero-section,.text-section{text-align:center;margin:40px auto;max-width:700px;padding:0 15px;}
