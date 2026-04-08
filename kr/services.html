@@ -12,7 +12,7 @@
   <div id="header-wrap"></div>
 
   <main class="content">
-    <h2 class="page-title"><span class="susurro2">susurro</span> &nbsp;Services</h2>
+    <h2 class="page-title">서비스 <span class="susurro2">&nbsp;services</span></h2>
 
     <section class="text-section">
 
@@ -22,40 +22,56 @@
       <div class="sample-tabs">
         <div class="tab-buttons">
           <button class="tab-btn active" onclick="switchTab('nonfiction', this)">논픽션</button>
-          <button class="tab-btn" onclick="switchTab('essay', this)">에세이</button>
-          <button class="tab-btn" onclick="switchTab('fiction', this)">소설</button>
+          <button class="tab-btn" onclick="switchTab('prose', this)">소설·에세이</button>
+          <button class="tab-btn" onclick="switchTab('poetry', this)">시·희곡</button>
+          <button class="tab-btn" onclick="switchTab('image', this)">이미지 중심</button>
         </div>
         <div class="tab-panel active" id="panel-nonfiction">
           <div class="sample-info">
-            <p class="sample-genre">논픽션 · 지식 전달형</p>
-            <p class="sample-meta">각주 12개 · 이미지 8개 · 표 3개</p>
+            <p class="sample-genre">지식 전달형</p>
+            <p class="sample-genre-sub">논픽션 · 자기계발 · 학술</p>
+            <p class="sample-meta">각주 12개<br>이미지 8개<br>표 3개</p>
           </div>
           <div class="sample-pages">
-            <div class="sample-page"><span class="page-num">p.1</span><span class="page-lbl">표지</span></div>
-            <div class="sample-page"><span class="page-num">p.2</span><span class="page-lbl">목차</span></div>
-            <div class="sample-page"><span class="page-num">p.3</span><span class="page-lbl">본문</span></div>
+            <div class="sample-page"><span class="page-num">본문 1</span><span class="page-lbl">단락 스타일</span></div>
+            <div class="sample-page"><span class="page-num">본문 2</span><span class="page-lbl">소제목 + 이미지</span></div>
+            <div class="sample-page"><span class="page-num">본문 3</span><span class="page-lbl">표 · 각주</span></div>
           </div>
         </div>
-        <div class="tab-panel" id="panel-essay">
+        <div class="tab-panel" id="panel-prose">
           <div class="sample-info">
-            <p class="sample-genre">에세이 · 산문형</p>
-            <p class="sample-meta">각주 0개 · 이미지 2개 · 표 0개</p>
+            <p class="sample-genre">산문형</p>
+            <p class="sample-genre-sub">소설 · 에세이 · 일상 문학</p>
+            <p class="sample-meta">각주 0개<br>이미지 2개<br>표 0개</p>
           </div>
           <div class="sample-pages">
-            <div class="sample-page"><span class="page-num">p.1</span><span class="page-lbl">표지</span></div>
-            <div class="sample-page"><span class="page-num">p.2</span><span class="page-lbl">목차</span></div>
-            <div class="sample-page"><span class="page-num">p.3</span><span class="page-lbl">본문</span></div>
+            <div class="sample-page"><span class="page-num">본문 1</span><span class="page-lbl">단락 스타일</span></div>
+            <div class="sample-page"><span class="page-num">본문 2</span><span class="page-lbl">소제목</span></div>
+            <div class="sample-page"><span class="page-num">본문 3</span><span class="page-lbl">이미지</span></div>
           </div>
         </div>
-        <div class="tab-panel" id="panel-fiction">
+        <div class="tab-panel" id="panel-poetry">
           <div class="sample-info">
-            <p class="sample-genre">소설 · 서사형</p>
-            <p class="sample-meta">각주 0개 · 이미지 0개 · 표 0개</p>
+            <p class="sample-genre">특수 레이아웃</p>
+            <p class="sample-genre-sub">시 · 희곡 · 시나리오</p>
+            <p class="sample-meta">별도 문의 권장<br><br><br></p>
           </div>
           <div class="sample-pages">
-            <div class="sample-page"><span class="page-num">p.1</span><span class="page-lbl">표지</span></div>
-            <div class="sample-page"><span class="page-num">p.2</span><span class="page-lbl">목차</span></div>
-            <div class="sample-page"><span class="page-num">p.3</span><span class="page-lbl">본문</span></div>
+            <div class="sample-page"><span class="page-num">본문 1</span><span class="page-lbl">단락 스타일</span></div>
+            <div class="sample-page"><span class="page-num">본문 2</span><span class="page-lbl">특수 레이아웃</span></div>
+            <div class="sample-page"><span class="page-num">본문 3</span><span class="page-lbl">들여쓰기</span></div>
+          </div>
+        </div>
+        <div class="tab-panel" id="panel-image">
+          <div class="sample-info">
+            <p class="sample-genre">이미지 중심</p>
+            <p class="sample-genre-sub">어린이책 · 요리책 · 사진집</p>
+            <p class="sample-meta">별도 문의 권장<br><br><br></p>
+          </div>
+          <div class="sample-pages">
+            <div class="sample-page"><span class="page-num">본문 1</span><span class="page-lbl">이미지 배치</span></div>
+            <div class="sample-page"><span class="page-num">본문 2</span><span class="page-lbl">텍스트 + 이미지</span></div>
+            <div class="sample-page"><span class="page-num">본문 3</span><span class="page-lbl">캡션</span></div>
           </div>
         </div>
       </div>
