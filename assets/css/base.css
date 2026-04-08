@@ -9,7 +9,6 @@ body,.header_wrap,.header,.footer,.book-front{background-color:#F4F4F4;}
 .susurro2,.nav a,.nav a::after,.stats-highlight p strong,.intro-paragraph p i{color:#B8A0A0;}
 
 /* 헤더 */
-#header-wrap, #footer-wrap { width: 100%; display: contents; }
 .header_wrap{width:100%;max-width:1000px;text-align:center;padding:0 0 20px;margin:0;box-shadow:none;position:sticky;top:0;z-index:900;}
 .header{width:100%;max-width:1000px;text-align:center;padding:25px 30px 4px;border-bottom:1px solid #E0E0E0;display:flex;justify-content:space-between;align-items:baseline;box-shadow:none;position:sticky;top:0;z-index:1000;}
 .site-title{font-size:1.8em;font-weight:300;margin:0;letter-spacing:1px;}
