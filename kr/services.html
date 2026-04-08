@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>susurro — 서비스</title>
+  <link rel="stylesheet" href="../assets/css/base.css" />
+</head>
+
+<body>
+  <header class="header_wrap">
+    <div class="header">
+      <h1 class="site-title"><a href="index.html">susurro</a></h1>
+      <nav class="nav">
+        <a href="about.html">소개</a>
+        <a href="services.html" class="current-page">서비스</a>
+        <a href="portfolio.html">포트폴리오</a>
+        <a href="contact.html">문의</a>
+        <div class="lang-dropdown">
+          <button class="lang-btn">KR ▾</button>
+          <ul class="lang-menu">
+            <li><a href="../services.html">English</a></li>
+            <li><a href="services.html">한국어</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content">
+    <h2 class="page-title">서비스 <span class="susurro2">&nbsp;services</span></h2>
+
+    <section class="text-section">
+
+      <h3 class="section-title">EPUB 제작 <span class="susurro2">&nbsp;production</span></h3>
+      <p>원고를 epub 파일로 만들어드립니다. 워드, PDF, HWP 등 텍스트 파일이면 무엇이든 가능해요. 각주, 표, 이미지가 많은 복잡한 원고도 환영합니다.</p>
+      <p class="sample-label">샘플</p>
+      <div class="sample-tabs">
+        <div class="tab-buttons">
+          <button class="tab-btn active" onclick="switchTab('nonfiction', this)">논픽션</button>
+          <button class="tab-btn" onclick="switchTab('essay', this)">에세이</button>
+          <button class="tab-btn" onclick="switchTab('fiction', this)">소설</button>
+        </div>
+        <div class="tab-panel active" id="panel-nonfiction">
+          <div class="sample-info">
+            <p class="sample-genre">논픽션 · 지식 전달형</p>
+            <p class="sample-meta">각주 12개 · 이미지 8개 · 표 3개</p>
+          </div>
+          <div class="sample-pages">
+            <div class="sample-page"><span class="page-num">p.1</span><span class="page-lbl">표지</span></div>
+            <div class="sample-page"><span class="page-num">p.2</span><span class="page-lbl">목차</span></div>
+            <div class="sample-page"><span class="page-num">p.3</span><span class="page-lbl">본문</span></div>
+          </div>
+        </div>
+        <div class="tab-panel" id="panel-essay">
+          <div class="sample-info">
+            <p class="sample-genre">에세이 · 산문형</p>
+            <p class="sample-meta">각주 0개 · 이미지 2개 · 표 0개</p>
+          </div>
+          <div class="sample-pages">
+            <div class="sample-page"><span class="page-num">p.1</span><span class="page-lbl">표지</span></div>
+            <div class="sample-page"><span class="page-num">p.2</span><span class="page-lbl">목차</span></div>
+            <div class="sample-page"><span class="page-num">p.3</span><span class="page-lbl">본문</span></div>
+          </div>
+        </div>
+        <div class="tab-panel" id="panel-fiction">
+          <div class="sample-info">
+            <p class="sample-genre">소설 · 서사형</p>
+            <p class="sample-meta">각주 0개 · 이미지 0개 · 표 0개</p>
+          </div>
+          <div class="sample-pages">
+            <div class="sample-page"><span class="page-num">p.1</span><span class="page-lbl">표지</span></div>
+            <div class="sample-page"><span class="page-num">p.2</span><span class="page-lbl">목차</span></div>
+            <div class="sample-page"><span class="page-num">p.3</span><span class="page-lbl">본문</span></div>
+          </div>
+        </div>
+      </div>
+      <a href="contact.html?service=production" class="quote-btn">견적 문의하기 →</a>
+
+      <h3 class="section-title">EPUB 변환 <span class="susurro2">&nbsp;conversion</span></h3>
+      <p>이미 출판된 종이책을 epub으로 변환해드립니다. InDesign 파일, PDF, 스캔본 모두 가능해요. 기존 디자인을 최대한 살리면서 전자책에 맞게 최적화합니다.</p>
+      <a href="contact.html?service=conversion" class="quote-btn">견적 문의하기 →</a>
+
+      <h3 class="section-title">접근성 감사 <span class="susurro2">&nbsp;accessibility</span></h3>
+      <p>epub 파일이 스크린리더에서 올바르게 읽히는지 확인합니다. 문제가 있는 부분을 찾아 보고서로 정리해드리고, 수정까지 도와드립니다. EAA(유럽 접근성법) 대응이 필요한 분께 추천합니다.</p>
+      <p class="sample-label">점검 항목</p>
+      <ul class="checklist">
+        <li>이미지 대체 텍스트 (alt text)</li>
+        <li>제목 구조 (h1~h6)</li>
+        <li>언어 선언</li>
+        <li>목차 정확성</li>
+        <li>각주 링크</li>
+        <li>표 마크업</li>
+        <li>스크린리더 재생 테스트</li>
+        <li>EAA 준수 보고서</li>
+      </ul>
+      <a href="contact.html?service=accessibility" class="quote-btn">견적 문의하기 →</a>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 susurro. All rights reserved.</p>
+  </footer>
+  <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
