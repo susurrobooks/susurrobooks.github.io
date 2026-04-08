@@ -16,6 +16,7 @@ function loadHTML(targetEl, file) {
       // 현재 페이지 nav 링크에 current-page 클래스 추가
       var currentPath = window.location.pathname;
       document.querySelectorAll('.nav a').forEach(function (a) {
+         if (a.closest('.lang-menu')) return;
         if (currentPath.endsWith(a.getAttribute('href'))) {
           a.classList.add('current-page');
         }
