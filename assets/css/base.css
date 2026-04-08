@@ -41,7 +41,7 @@ footer.footer{width:100%;max-width:1000px;text-align:center;margin-top:20px;padd
 .page-title,.section-title,.text-section p{text-align:left;}
 .page-title{font-size:1.8em;margin-bottom:0;}
 .page-title::after{content:"";display:block;width:40px;height:1px;background-color:#666;margin:0.85rem auto 0;}
-.stats-highlight p,.text-section p{line-height:1.9em;color:#555;margin:0;position:relative;}
+.stats-highlight p,.text-section p{line-height:1.9em;color:#555;position:relative;}
 
 /* index */
 .hero-section{justify-content:center;}
@@ -49,7 +49,7 @@ footer.footer{width:100%;max-width:1000px;text-align:center;margin-top:20px;padd
 .hero-title .brand{font-size:0.9em;}
 .hero-title .brand .susurro2{font-size:1.5em;font-weight:500;vertical-align:-2%;}
 .stats-highlight{margin-bottom:40px;flex-wrap:wrap;justify-content:center;gap:30px;}
-.stats-highlight p{font-size:1.1em;line-height:2.3em;color:#777;margin:0;padding:0 15px;position:relative;}
+.stats-highlight p{line-height:2.3em;color:#777;margin:0;padding:0 15px;position:relative;}
 .stats-highlight p:not(:last-child)::after{content:'';position:absolute;right:-15px;top:50%;transform:translateY(-50%);width:1px;height:70%;background-color:#eee;}
 
 /* about */
@@ -109,7 +109,7 @@ a.book-link-wrapper[href] .book-back{border:3px solid #dfcdcd;}
   .content{padding:30px 20px;margin-top:15px;margin-bottom:40px;max-width:800px;}
   .hero-title{font-size:2.2em;margin-bottom:25px;}
   .stats-highlight{flex-direction:column;gap:10px;text-align:left;align-items:flex-start;padding-left:15px;}
-  .stats-highlight p{font-size:1.05em;padding:0;width:100%;}
+  .stats-highlight p{padding:0;width:100%;}
   .stats-highlight p:not(:last-child)::after{display:none;}
   .intro-paragraph{font-size:0.95em;text-align:left;}
   .book-card-container{height:200px;}
@@ -137,7 +137,6 @@ a.book-link-wrapper[href] .book-back{border:3px solid #dfcdcd;}
   .site-title{font-size:1.4em;}
   .nav a{font-size:0.9em;}
   .hero-title{font-size:1.5em;}
-  .stats-highlight p{font-size:0.95em;}
   .intro-paragraph{font-size:0.85em;}
 }
 
