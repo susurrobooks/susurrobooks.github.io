@@ -45,6 +45,15 @@ function switchTab(id, el) {
   document.getElementById('panel-' + id).classList.add('active');
 }
 
+// 북 카드 클릭 토글
+document.addEventListener('click', function (e) {
+  var card = e.target.closest('.book-link-wrapper');
+  if (card) {
+    var container = card.querySelector('.book-card-container');
+    if (container) container.classList.toggle('flipped');
+  }
+});
+
 // 실행
 document.addEventListener('DOMContentLoaded', function () {
   var headerWrap = document.getElementById('header-wrap');

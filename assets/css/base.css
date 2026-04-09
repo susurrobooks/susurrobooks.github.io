@@ -86,7 +86,7 @@ footer.footer{width:100%;max-width:1000px;text-align:center;margin-top:20px;padd
 .book-link-wrapper:hover{cursor:pointer;}
 .book-card-container{width:100%;height:200px;perspective:1000px;}
 .book-card{width:100%;height:100%;position:relative;transform-style:preserve-3d;transition:transform 0.8s ease-in-out;}
-.book-card-container:hover .book-card{transform:rotateY(180deg);}
+.book-card-container.flipped .book-card{transform:rotateY(180deg);}
 .book-front,.book-back{width:100%;height:100%;position:absolute;backface-visibility:hidden;display:flex;justify-content:center;align-items:center;border-radius:4px;overflow:hidden;text-align:center;}
 .book-front img{width:80%;height:80%;object-fit:contain;border-radius:4px;}
 .book-back{background-color:#fff;color:#333;transform:rotateY(180deg);flex-direction:column;padding:8px;justify-content:center;word-break:break-word;}
