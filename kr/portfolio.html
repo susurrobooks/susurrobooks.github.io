@@ -14,12 +14,64 @@
 
   <main class="content">
     <h2 class="page-title"><span class="susurro2">susurro</span> &nbsp;Portfolio</h2>
-    <div class="portfolio-grid" id="portfolio-grid"></div>
+
+    <div class="portfolio-tabs">
+      <button class="portfolio-tab active" onclick="switchPortfolioTab('works', this)">Works</button>
+      <button class="portfolio-tab" onclick="switchPortfolioTab('samples', this)">Samples</button>
+    </div>
+
+    <div class="portfolio-panel active" id="ptab-works">
+      <div class="portfolio-grid" id="portfolio-grid"></div>
+    </div>
+
+    <div class="portfolio-panel" id="ptab-samples">
+
+      <!-- desktop: ipad frame -->
+      <div class="ipad-frame">
+        <div class="ipad-screen">
+          <div class="ipad-shelf" id="ipad-shelf">
+            <div class="sample-grid" id="sample-grid-desktop"></div>
+          </div>
+          <div class="ipad-viewer" id="ipad-viewer">
+            <div class="ipad-img" id="ipad-img">
+              <button class="ipad-close" onclick="ipadBack()">✕</button>
+              <div class="ipad-overlay">
+                <div class="ipad-page" id="ipad-page"></div>
+              </div>
+            </div>
+            <div class="ipad-nav">
+              <button class="ipad-prev" onclick="ipadPrev()">‹</button>
+              <div class="ipad-genre" id="ipad-genre"></div>
+              <button class="ipad-next" onclick="ipadNext()">›</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- mobile: no frame -->
+      <div class="mobile-samples">
+        <div class="sample-grid" id="sample-grid-mobile"></div>
+        <div class="mobile-viewer" id="mobile-viewer">
+          <button class="mobile-back" onclick="mobileBack()">← back</button>
+          <div class="mobile-img" id="mobile-img"></div>
+          <div class="mobile-nav">
+            <button class="mobile-arr" onclick="mobilePrev()">← prev</button>
+            <div class="mobile-info">
+              <div class="mobile-genre" id="mobile-genre"></div>
+              <div class="mobile-page" id="mobile-page"></div>
+            </div>
+            <button class="mobile-arr" onclick="mobileNext()">next →</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </main>
 
   <div id="footer-wrap"></div>
   <script src="../assets/js/main.js"></script>
   <script src="../assets/js/books-kr.js"></script>
+  <script src="../assets/js/samples.js"></script>
 </body>
 
 </html>
