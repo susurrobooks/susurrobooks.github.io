@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
     a.innerHTML =
       '<div class="book-card-container">' +
         '<div class="book-card">' +
-          '<div class="book-front"><img src="assets/images/' + b.file + '.jpg" alt="' + b.title + '"></div>' +
+          '<div class="book-front"><img src="../assets/images/' + b.file + '.jpg" alt="' + b.title + '"></div>' +
           '<div class="book-back">' +
             '<h3 class="book-title">' + b.title + ' ' + subtitle + '</h3>' +
             '<p class="book-author">' + b.author + '</p>' +

@@ -5,25 +5,25 @@ var samplesData = [
   {
     genre: 'nonfiction',
     label: 'Nonfiction',
-    cover: 'assets/images/16-soup-counseling.jpg',
+    cover: '../assets/images/16-soup-counseling.jpg',
     images: []
   },
   {
     genre: 'fiction',
     label: 'Fiction & Essay',
-    cover: 'assets/images/01-mom-raised-me.jpg',
+    cover: '../assets/images/01-mom-raised-me.jpg',
     images: []
   },
   {
     genre: 'poetry',
     label: 'Poetry & Drama',
-    cover: 'assets/images/02-seoul-innovation-report.jpg',
+    cover: '../assets/images/02-seoul-innovation-report.jpg',
     images: []
   },
   {
     genre: 'image',
     label: 'Image-heavy',
-    cover: 'assets/images/03-national-park-casebook.jpg',
+    cover: '../assets/images/03-national-park-casebook.jpg',
     images: []
   }
 ];
