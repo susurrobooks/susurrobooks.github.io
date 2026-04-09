@@ -1,4 +1,4 @@
-var books = [
+var booksKr = [
   { file: '22-community',                    title: '커뮤니티에 입장하셨습니다', subtitle: '각자의 현실 너머, 서로를 잇는 정치를 향하여', author: '권성민',                                                                          publisher: '돌고래' },
   { file: '21-turtle-time',                  title: '거북의 시간',              subtitle: '망가진 세상을 복원하는 느림과 영원에 관하여',  author: '사이 몽고메리 지음, 맷 패터슨 그림',                                           translator: '조은영',                          publisher: '돌고래' },
   { file: '20-womens-dictionary-of-symbols-2', title: '여성 상징 사전 2',       subtitle: '신적인 존재와 의례',                           author: '바버라 G. 워커',                                                              translator: '여성 상징 번역 모임',             publisher: '돌고래' },
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var isKr = window.location.pathname.indexOf('/kr/') !== -1;
   var imgBase = isKr ? '../assets/images/' : 'assets/images/';
 
-  books.forEach(function (b) {
+  booksKr.forEach(function (b) {
     var subtitle = b.subtitle ? '<span class="book-subtitle">' + b.subtitle + '</span>' : '';
     var translator = b.translator ? '<p class="book-translator">' + b.translator + '</p>' : '';
 
