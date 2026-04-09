@@ -107,7 +107,7 @@ a.book-link-wrapper[href] .book-back{border:3px solid #dfcdcd;}
 
 /* ipad frame — desktop only */
 .ipad-frame{display:flex;justify-content:center;margin:20px 0;}
-.ipad-screen{background:#1e1e1e;border-radius:16px;width:480px;aspect-ratio:3/4;padding:24px;display:flex;flex-direction:column;overflow:hidden;}
+.ipad-screen{background:#1e1e1e;border-radius:16px;width:480px;aspect-ratio:3/4;padding:24px 24px 0;display:flex;flex-direction:column;overflow:hidden;}
 .ipad-shelf{height:554px;background:#2a2a2a;overflow:hidden;}
 .ipad-shelf .portfolio-grid{margin:0;}
 .sample-grid{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:30px;justify-content:space-between;padding:0;margin:0;}
@@ -118,12 +118,12 @@ a.book-link-wrapper[href] .book-back{border:3px solid #dfcdcd;}
 .ipad-img img{width:100%;height:100%;object-fit:contain;}
 .ipad-close{position:absolute;top:8px;left:8px;width:24px;height:24px;border-radius:50%;background:rgba(0,0,0,0.5);border:none;color:#fff;font-size:11px;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:10;}
 .ipad-close:hover{background:rgba(0,0,0,0.7);}
-.ipad-prev,.ipad-next{width:38px;height:38px;border-radius:50%;background:rgba(0,0,0,0.3);border:none;color:#aaa;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;}
+.ipad-prev,.ipad-next{width:42px;height:42px;border-radius:50%;background:rgba(0,0,0,0.3);border:none;color:#aaa;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;}
 .ipad-prev:hover,.ipad-next:hover{background:rgba(0,0,0,0.5);color:#fff;}
 .ipad-overlay{position:absolute;bottom:8px;left:0;right:0;text-align:center;z-index:10;}
 .ipad-genre{font-size:0.85em;font-weight:500;color:#eee;text-shadow:0 1px 3px rgba(0,0,0,0.7);}
 .ipad-page{font-size:0.75em;color:#ccc;text-shadow:0 1px 3px rgba(0,0,0,0.7);}
-.ipad-nav{display:flex;align-items:center;justify-content:space-between;margin-top:8px;}
+.ipad-nav{display:flex;align-items:center;justify-content:space-between;margin-top:10px;}
 
 /* mobile samples — hidden on desktop */
 .mobile-samples{display:none;}
