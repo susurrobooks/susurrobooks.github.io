@@ -161,7 +161,7 @@ a.book-link-wrapper[href] .book-back{border:3px solid #dfcdcd;}
   .nav a{font-size:1em;padding-bottom:2px;}
   .content{padding:30px 20px;margin-top:15px;margin-bottom:40px;max-width:800px;}
   .hero-title{font-size:2.2em;margin-bottom:25px;}
-  .stats-highlight{flex-direction:column;gap:10px;text-align:left;align-items:flex-start;padding-left:15px;}
+  .stats-highlight{flex-direction:column;gap:10px;align-items:flex-start;padding-left:15px;}
   .stats-highlight p{font-size:1.05em;padding:0;width:100%;}
   .stats-highlight p:not(:last-child)::after{display:none;}
   .intro-paragraph{font-size:0.95em;text-align:left;}
